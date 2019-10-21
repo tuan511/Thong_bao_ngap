@@ -24,6 +24,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Icon from 'react-native-vector-icons/Feather';
+import MapView from "react-native-maps";
 
 const App: () => React$Node = () => {
   return (
@@ -74,6 +75,13 @@ const App: () => React$Node = () => {
 };
 
 const styles = StyleSheet.create({
+  test: {
+    position: "absolute",
+    top: 0,
+    bottom: 0,
+    right: 0,
+    left: 0
+  },
   scrollView: {
     backgroundColor: Colors.lighter,
   },
