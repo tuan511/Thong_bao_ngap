@@ -15,7 +15,7 @@ const myStorage = {
 
 // Create a client instance
 const client = new Client({
-  uri: 'wss://soldier.cloudmqtt.com:30718/wss',
+  uri: 'wss://soldier.cloudmqtt.com:31590/wss',
   clientId: 'clientId',
   storage: myStorage,
 });
@@ -33,8 +33,8 @@ client.on('messageReceived', message => {
 // connect the client
 
 var options = {
-  userName: 'zpmrungb',
-  password: 'RLWW4l_DSuYI',
+  userName: 'qphxrqlo',
+  password: 'vFeIh1tNyQWU',
 };
 
 client
